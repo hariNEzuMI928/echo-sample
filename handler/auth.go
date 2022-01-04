@@ -8,7 +8,7 @@ import (
     "github.com/labstack/echo"
     "github.com/labstack/echo/middleware"
 
-	"github.com/hariNEzuMI928/echo-sample/model"
+	"echo-sample/model"
 )
 
 type jwtCustomClaims struct {

@@ -4,7 +4,7 @@ import (
     "github.com/labstack/echo"
     "github.com/labstack/echo/middleware"
 
-	"github.com/hariNEzuMI928/echo-sample/handler"
+	"echo-sample/handler"
 )
 
 func newRouter() *echo.Echo {
@@ -34,5 +34,5 @@ func newRouter() *echo.Echo {
 
 func main() {
     router := newRouter()
-    router.Logger.Fatal(router.Start(":8080"))
+    router.Logger.Fatal(router.Start(":8081"))
 }

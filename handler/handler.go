@@ -5,7 +5,7 @@ import (
     "strconv"
 
     "github.com/labstack/echo"
-    "github.com/hariNEzuMI928/echo-sample/model"
+    "echo-sample/model"
 )
 
 func AddTodo(c echo.Context) error {
